@@ -1,0 +1,3 @@
+# travel_app_flutter
+
+The GuideAI app is an AI-powered tourist guide that can make travel planning and navigation more efficient and stress-free. It provides personalized recommendations, real-time guidance, and safety alerts for tourists, helping them make informed decisions and feel more confident in their travel choices. The app can help tourists explore the world with ease and comfort by addressing the challenges of destination information, personalization, navigation, safety, and reviews.
