@@ -1,27 +1,24 @@
 import 'package:flutter/material.dart';
-
 import 'home/home_screen.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  const MyApp({Key? key}) : super(key: key);
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSwatch().copyWith(
-            secondary: Color(0xFFFE7245), // Your accent color
-            primary: Color(0xFFFCAE40)
+          secondary: const Color(0xFFFE7245), // Accent color
+          primary: const Color(0xFFFCAE40), // Primary color
         ),
       ),
       home: HomePage(),
     );
   }
 }
-
